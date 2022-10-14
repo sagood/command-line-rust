@@ -26,10 +26,10 @@ enum Column<'a> {
 }
 
 pub fn get_args() -> MyResult<Config> {
-    let matches = Command::new("grepr")
+    let matches = Command::new("commr")
         .version("0.1.0")
         .author("Tian Yu <gasnus@gmail.com>")
-        .about("Rust grep")
+        .about("Rust comm")
         .arg(
             Arg::new("file1")
                 .value_name("FILE1")
